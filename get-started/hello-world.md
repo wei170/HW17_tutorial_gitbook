@@ -1,4 +1,4 @@
-#Get Started
+#Hello World
 
 In this tutorial, we are going to create a blog app to manage blog and comment posting, authentication checking, and the implementation of some third-party plugins. By the end, you should have a comprehensive understanding of meteor and its project structure.
 
