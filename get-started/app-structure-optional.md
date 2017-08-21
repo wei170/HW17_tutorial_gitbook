@@ -9,7 +9,7 @@ Meteor has its own _recommended_ code structure, and directoriese and files name
 
 >> Meteor will ensure that any file in any directory named ```server/``` will only be available on the server, and ```client/``` be on the client.
 
-Let's take a look at the [Todos example appl](), the official Meteor 'helloworld' application. It is a great example to follow when structuring your app.
+Let's take a look at the [Todos example app](https://www.meteor.com/tutorials/blaze/creating-an-app), the official Meteor 'helloworld' application. It is a great example to follow when structuring your app.
 
 ```
 imports/
