@@ -20,5 +20,5 @@ In this tutorial, we will clean up default scaffolding codes and create director
 
 	```
 3. Create ```imports/``` directory in the root.
-4. Create ```imports/startup/``` and ```imports/api/``` directories.
+4. Create ```imports/startup/```, ```imports/api/```, and ```imports/both/``` directories.
 5. Create ```imports/startup/server/``` and ```imports/startup/client/``` directories.
