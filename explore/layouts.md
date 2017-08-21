@@ -47,7 +47,7 @@ In this chapter, we will use ```Template``` in ```Blaze```, and ```FlowRouter```
 	    <h3>TEST!!!</h3>
 	</template>
 	```
->  ```{{> Template.dynamic template=main}}``` is how dynamic page to render other templates inside of it. We need to tell the ```FlowRouter```.
+	>  ```{{> Template.dynamic template=main}}``` is how dynamic page to render other templates inside of it. We need to tell the ```FlowRouter```.
 
 2. In the ```imports/startup/lib/routes.js```, append:
 
