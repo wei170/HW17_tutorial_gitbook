@@ -12,3 +12,4 @@
 ### Explore
 
 * [Layouts](explore/layouts.md)
+* [Collection And Schema](explore/collection-and-schema.md)
