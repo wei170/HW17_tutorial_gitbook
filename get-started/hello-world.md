@@ -9,20 +9,20 @@ To create the app, open your terminal and type:
 This will create a new folder called `blog-app` with all of the files that a Meteor app needs:
 
 ```
-client/main.js # a JavaScript entry point loaded on the client
-client/main.html # an HTML file that defines view templates
-client/main.css # a CSS file to define your app's styles
-server/main.js # a JavaScript entry point loaded on the server
-package.json # a control file for installing NPM packages
-.meteor # internal Meteor files
-.gitignore # a control file for git
+client/main.js        # a JavaScript entry point loaded on the client
+client/main.html      # an HTML file that defines view templates
+client/main.css       # a CSS file to define your app's styles
+server/main.js        # a JavaScript entry point loaded on the server
+package.json          # a control file for installing NPM packages
+.meteor               # internal Meteor files
+.gitignore            # a control file for git
 ```
 
 To run the newly created app:
 
 ```
-cd simple-todos
-meteor
+$ cd simple-todos
+$ meteor
 ```
 
 Open a web browser and go to `http://localhost:3000` to see the app running.

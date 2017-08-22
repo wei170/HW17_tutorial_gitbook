@@ -26,7 +26,7 @@ gwendall:auth-client-callbacks  # Adds client-side onLogin and onLogout callback
 
 As long as you save the file, new packages will be automatically added into the app.
 
-Install SimpleSchema NPM package separately (AutoForm 6+), since ```autoform``` is dependent on this package:
+Install SimpleSchema NPM package separately (AutoForm 6+), since `autoform` is dependent on this package:
 
 ```
 $ npm i --save simpl-schema

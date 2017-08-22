@@ -1,9 +1,9 @@
 # Clean Up
 In this tutorial, we will clean up default scaffolding codes and create directories and files for our future usage.
 
-1. In the ```client/```, change ```main.html``` as:
+1. In the `client/`, change `main.html` as:
 
-	```
+	```html
 	<head>
 	    <title>Hello World Blog</title>
 	</head>
@@ -11,7 +11,7 @@ In this tutorial, we will clean up default scaffolding codes and create director
 
 2. Clean up the ```main.js``` and insert:
 
-	```
+	```javascript
 	import { Meteor } from 'meteor/meteor';
 
 	Meteor.startup(() => {
@@ -19,6 +19,6 @@ In this tutorial, we will clean up default scaffolding codes and create director
 	});
 
 	```
-3. Create ```imports/``` directory in the root.
-4. Create ```imports/startup/```, ```imports/api/```, and ```imports/both/``` directories.
-5. Create ```imports/startup/server/``` and ```imports/startup/client/``` directories.
+3. Create `imports/` directory in the root.
+4. Create `imports/startup/`, `imports/api/`, and `imports/both/` directories.
+5. Create `imports/startup/server/` and `imports/startup/client/` directories.
