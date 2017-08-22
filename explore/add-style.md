@@ -4,7 +4,7 @@ We will update the style of our page.
 1. Create a `styles.styl` file in the root directory or in the `client/` directory
 2. In the `styles.styl`, append:
 
-	```
+	```stylus
 	normalize-css()
 	
 	// Material Shadows
@@ -381,5 +381,4 @@ We will update the style of our page.
 	        a 
 	            color dark-purp
 	```
-	
-	_-- Modified from [here](https://pastebin.com/5Xs9Z113)_
+_-- Modified from [here](https://pastebin.com/5Xs9Z113)_
