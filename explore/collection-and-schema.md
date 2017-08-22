@@ -12,7 +12,7 @@ In this chapter, we will learn how to create a Mongo Collection and attach schem
 	> (Optional) We could view our data in the client by installing ```meteortoys:allthings```. This is a tool that you can get access to Mongol and JetSetter. Go ahead to play around with it.
 	> To get started, run:
 	>```$ meteor add meteortoys:allthings```
-3. In order to let the file be run in the client side, add in the beginning of ```client/main.js```:
+3. In order to let the file be run in the client side, add in the beginning of `client/main.js` and `server/main.js`:
 
 	```
 	// Collections
@@ -21,6 +21,11 @@ In this chapter, we will learn how to create a Mongo Collection and attach schem
 4. We want to add schema to our collections in order to use ```autoform``` package and have all the stuff pre-created for us. (Less pain). So, in the ```imports/startup/both/collections/blogs.collection.js```, append:
 
 	```
+	import SimpleSchema from 'simpl-schema';
+	SimpleSchema.extendOptions(['autoform']);
+
+	Blogs = new Mongo.Collection('blogs');
+
 	BlogSchema = new SimpleSchema({
 	    title: {
 	        type: String,
@@ -30,9 +35,19 @@ In this chapter, we will learn how to create a Mongo Collection and attach schem
 	        type: String,
 	        label: 'Content'
 	    },
+	    tags: {
+	        type: Array,
+	        label: 'Tags'
+	    },
+	    'tags.$': {
+	        type: String
+	    },
 	    author: {
 	        type: String,
 	        label: 'Author',
+	        autoform: {
+	            type: 'hidden'
+	        },
 	        autoValue: function() {
 	            return this.userId;
 	        }
@@ -40,11 +55,17 @@ In this chapter, we will learn how to create a Mongo Collection and attach schem
 	    createdAt: {
 	        type: Date,
 	        label: 'Created At',
+	        autoform: {
+	            type: 'hidden'
+	        },
 	        defaultValue: function() {
 	            return new Date();
 	        }
 	    }
 	});
+
+	Blogs.schema = BlogSchema;
+	Blogs.attachSchema(BlogSchema);	
 	```
 5. One last step, we need to attach the schema onto the collection. So, in the ```imports/startup/both/collections/blogs.collection.js```, append:
 

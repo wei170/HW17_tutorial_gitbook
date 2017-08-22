@@ -15,7 +15,7 @@ fortawesome:fontawesome         # Fontawesome
 spiderable                      # spiderable is part of Webapp. It's one possible way to allow web search engines to index a Meteor application.
 fastclick                       # FastClick is a simple, easy-to-use library for eliminating the 300ms delay between a physical tap and the firing of a click event on mobile browsers.
 raix:handlebar-helpers          # Provides a simple way of using sessions and collections in the Meteor Spacebars template environment.
-aldeed:collection2              # Allows you to attach a schema to a Mongo.Collection. 
+aldeed:collection2-core@2.0.0   # Allows you to attach a schema to a Mongo.Collection. 
 aldeed:autoform                 # Adds UI components and helpers to easily create basic forms with automatic insert and update events, and automatic reactive validation.
 accounts-ui                     # A turn-key user interface for Meteor Accounts.
 accounts-password               # Contains a full system for password-based authentication
