@@ -14,3 +14,4 @@
 * [Layouts](explore/layouts.md)
 * [Collection And Schema](explore/collection-and-schema.md)
 * [Easy Form](explore/easy-form.md)
+* [Add Style](explore/add-style.md)
