@@ -1,5 +1,40 @@
-# Add Style
-We will update the style of our page.
+# Add Partials and Style
+In this chapter, we will create some partials to our website. One is the header bar on the top and a navbar on the left.
+
+### SideNav
+1. Create a `client/layouts/SideNav.html` file
+2. Append:
+
+	```html
+	<template name="SideNav">
+	    <nav class="side-nav">
+	        <ul>
+	            <li><a href="/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Profile</a></li>
+	            <li><a href="/blogs"><i class="fa fa-rss" aria-hidden="true"></i> Blogs</a></li>
+	            <li><a href="/newblog"><i class="fa fa-plus" aria-hidden="true"></i> New Blog</a></li>
+	        </ul>
+	    </nav>
+	</template>
+	```
+3. In `client/layouts/MainLayout.html`, add `{{> SideNav}}` before `main` section
+
+### Header
+> We will change the original `header` section into a template
+
+1. Create a `client/layouts/Header.html` file
+2. Append:
+
+	```
+	<template name="Header">
+	...
+	</template>
+	```
+3. Cut the `header` section in the `client/layouts/MainLayout.html` into the `template` in new `Header.html` file.
+4. In the `client/layouts/MainLayout.html`, add `{{> Header}}` before `{{> SideNav}}`
+
+### Styles
+
+> We will update the style of our page.
 
 1. Create a `styles.styl` file in the root directory or in the `client/` directory
 2. In the `styles.styl`, append:

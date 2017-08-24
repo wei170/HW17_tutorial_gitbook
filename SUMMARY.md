@@ -14,4 +14,5 @@
 * [Layouts](explore/layouts.md)
 * [Collection And Schema](explore/collection-and-schema.md)
 * [Easy Form](explore/easy-form.md)
-* [Add Style](explore/add-style.md)
+* [Add Partials And Styles](explore/particals-and-styles.md)
+* [Load Data](explore/load-data.md)

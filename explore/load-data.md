@@ -1,0 +1,2 @@
+# Load Data
+In this chapter, we will learn how to load data on the client using `Blaze Template`. The reason why Meteor use BlazeJs as its default client-side template instead of Angular or React is that Blaze is really easier to understand and more light-weight than other templates. Even though the overall performance is
