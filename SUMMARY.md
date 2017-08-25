@@ -16,3 +16,4 @@
 * [Easy Form](explore/easy-form.md)
 * [Add Partials And Styles](explore/particals-and-styles.md)
 * [Load Data](explore/load-data.md)
+* [Get Params From Router](explore/params-from-router.md)
