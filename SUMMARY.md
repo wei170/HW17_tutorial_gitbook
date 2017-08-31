@@ -21,3 +21,4 @@
 ### Intermediate
 
 * [Pub/Sub](intermediate/pub-sub.md)
+* [Securing A Collection](intermediate/securing-a-collection.md)
