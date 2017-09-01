@@ -23,6 +23,7 @@ In this chapter, we will learn how to load data on the client using `Blaze Templ
 3. Append:
 	
 	```html
+	{% raw %}
 	<template name="Blogs">
 	    <section class="blogs">
 	        {{#each blogs}} 
@@ -43,6 +44,7 @@ In this chapter, we will learn how to load data on the client using `Blaze Templ
 	        </p>
 	    </article>
 	</template>
+	{% endraw %}
 	```
 	
 Now our blog app works as we expected, except that the link of each blog points to no where. So in the next chapter, we will dig into how to get params from a url and use the params to load data.
