@@ -2,9 +2,9 @@
 
 This chapter we will take a deeper look into the Blaze template. We will learn how to use 
 
-* `{{# if}}`
-* `{{# each comments}}`
-* `{{{> html}}}`
+* `{% raw %}{{# if}}{% endraw %}`
+* `{% raw %}{{# each comments}}{% endraw %}`
+* `{% raw %}{{{> html}}}{% endraw %}`
 * `Templates.events({})`
 * `Templates.helpers({})`
 * `Templates.onCreated(function() {})`
@@ -76,6 +76,7 @@ We will add `Comments` collections to each blog, allow authors to change the the
 2. In the `client/comments/comments.html`, append:
 
 	```html
+	{% raw %}
 	<template name="Comments">
 	    <section class="comment">
 	        <h3>Comments</h3>
@@ -109,6 +110,7 @@ We will add `Comments` collections to each blog, allow authors to change the the
 	        {{/autoForm}}
 	    </section>
 	</template>
+	{% endraw %}
 	```
 3. In the `client/comments/comments.js`, append:
 
