@@ -26,7 +26,7 @@ Right now, when a user log in, they will not be redirected to the `blogs` page. 
 	```
 2. Also in the `imports/startup/lib/routes.js`, in the `action` function of the FlowRouter which named `home`, add the following before `BlazeLayout.render('HomeLayout');`
 
-	```
+	```javascript
     if (Meteor.userId()) {
         FlowRouter.go('blogs');
     }

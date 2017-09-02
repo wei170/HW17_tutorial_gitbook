@@ -6,14 +6,14 @@ In this chapter, we will learn how to publish data from the server and subscribe
 2. Create a `imports/api/blogs/publish.js` file
 3. Append:
 
-	```
+	```javascript
 	Meteor.publish('blogs', () => {
    		return Blogs.find({});
 	});
 	```
 4. In the beginning of `client/blogs/blogs.js`, append:
 
-	```
+	```javascript
 	// Subscribe blogs
 	Meteor.subscribe('blogs');
 	```

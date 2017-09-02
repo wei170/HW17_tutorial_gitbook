@@ -153,13 +153,13 @@ We will add `Comments` collections to each blog, allow authors to change the the
 	```
 4. Now we need to publish all Comments related to a blog. Create `imports/api/comments/publish.js`, and append:
 
-	```
+	```javascript
 	Meteor.publish('comments', (blogId) => {
 	    return Comments.find({blogId: blogId});
 	});
 	```	
 5. In the `server/main.js`, append:
 
-	```
+	```javascript
 	import '../imports/api/comments/publish.js';
 	```
