@@ -14,7 +14,7 @@
 * [Layouts](explore/layouts.md)
 * [Collection And Schema](explore/collection-and-schema.md)
 * [Easy Form](explore/easy-form.md)
-* [Add Partials And Styles](explore/particals-and-styles.md)
+* [Add Partials And Styles](explore/partials-and-styles.md)
 * [Load Data](explore/load-data.md)
 * [Get Params From Router](explore/params-from-router.md)
 
@@ -23,3 +23,4 @@
 * [Pub/Sub](intermediate/pub-sub.md)
 * [Securing A Collection](intermediate/securing-a-collection.md)
 * [Auth Client Callbacks](intermediate/auth-client-callbacks.md)
+* [Blaze Mímir](intermediate/blaze-mimir.md)

@@ -106,8 +106,8 @@ social = {
     youtube: #bb0000
 }
 
-$side-nav = 100px
-$side-nav-large = 200px
+$side-nav = 80px
+$side-nav-large = 120px
 
 html
     box-sizing: border-box
@@ -135,6 +135,7 @@ header
         float left
     .login-buttons-dropdown-align-
         float right
+        margin-top 5px
         a
             color #FFF
             text-decoration none 
@@ -348,7 +349,7 @@ input, select, textarea
             &:hover, &.active
                 border-left 10px solid teal
 
-.blog
+.material-card
     background #FFF 
     padding 0 20px 20px
     margin-bottom 20px
@@ -397,6 +398,9 @@ input, select, textarea
         shadow-level(3)
         // animation card 0.6s ease 1 forwards
 
+.blog
+    @extend .material-card
+
 @keyframes card
     0%
         transform translate3d(0, 0, 0)
@@ -415,6 +419,29 @@ input, select, textarea
         left auto 
         a 
             color dark-purp
+
+.comment
+    @extend .material-card
+    height: 400px
+    overflow scroll
+
+.comment-left
+    @extend .material-card
+    width 75%
+    margin-bottom 5px
+    h3
+        font-size: 1.5em;
+
+.comment-right
+    @extend .material-card
+    width 75%
+    margin-left 25%
+    margin-bottom 5px
+    h3
+        font-size: 1.5em;
+
+.new-comment-container
+    @extend .material-card
 ```
 
 _-- Modified from [here](https://pastebin.com/5Xs9Z113)_
