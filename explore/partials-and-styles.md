@@ -30,7 +30,7 @@ In this chapter, we will create some partials to our website. One is the header 
 	</template>
 	```
 3. Cut the `header` section in the `client/layouts/MainLayout.html` into the `template` in new `Header.html` file.
-4. In the `client/layouts/MainLayout.html`, add `{{> Header}}` before `{{> SideNav}}`
+4. In the `client/layouts/MainLayout.html`, add `{% raw %}{{> Header}}{% endraw %}` before `{{> SideNav}}`
 
 ### Styles
 
