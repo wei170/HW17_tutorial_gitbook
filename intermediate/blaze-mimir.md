@@ -97,7 +97,7 @@ We will add `Comments` collections to each blog, allow authors to change the the
 	    <br>
 	    {{> NewBlogComment blogId=blogId}}
 	</template>
-	
+
 	<template name="NewBlogComment">
 	    <section class="new-comment-container">
 	        {{#autoForm collection="Comments" id="insertBlogCommentForm" type="insert"}}
