@@ -76,7 +76,6 @@ We will add `Comments` collections to each blog, allow authors to change the the
 2. In the `client/comments/comments.html`, append:
 
 	```html
-	{% raw %}
 	<template name="Comments">
 	    <section class="comment">
 	        <h3>Comments</h3>
@@ -110,7 +109,6 @@ We will add `Comments` collections to each blog, allow authors to change the the
 	        {{/autoForm}}
 	    </section>
 	</template>
-	{% endraw %}
 	```
 3. In the `client/comments/comments.js`, append:
 
