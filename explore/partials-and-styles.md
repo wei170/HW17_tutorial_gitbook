@@ -16,7 +16,7 @@ In this chapter, we will create some partials to our website. One is the header 
 	    </nav>
 	</template>
 	```
-3. In `client/layouts/MainLayout.html`, add `{{> SideNav}}` before `main` section
+3. In `client/layouts/MainLayout.html`, add `{% raw %}{{> SideNav}}{% endraw %}` before `main` section
 
 ### Header
 > We will change the original `header` section into a template
