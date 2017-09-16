@@ -1,3 +1,21 @@
-# My Awesome Book
+# <img src="assets/ph_logo.png" width="25"> Meteor Tutorial For HelloWorld
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+
+{% include "./assets/logo.svg" %}
+
+We are going to learn Meteor today. Grab some snacks and then follow these steps to set up your environment.
+
+Why do we choose Meteor? Meteor is 
+
+* Quick
+* Single language for backend and frontend
+* Easy to learn
+* Real-time applications at the core
+* Tons of smart packages to save your time
+* Turn your app into ios and Android easily
+* Active and supportive community
+
+Meteor suits the envoirnment of hackathons well. If you have a great idea, don't waste your time setting up server, frontend, and login/signup pages.
+
+> This is a clear chart to show Meteor main architecture.
+> {% include "./assets/meteor-arch.png" %}
