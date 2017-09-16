@@ -1,17 +1,17 @@
 # Summary
 
-### Introduction
+## Introduction
 
 * [Introduction](README.md)
 
-### Get Started
+## Get Started
 
 * [Hello World](get-started/hello-world.md)
 * [Package Management](get-started/package-management.md)
 * [App Structure \(Optional\)](get-started/app-structure-optional.md)
 * [Clean Up](get-started/clean-up.md)
 
-### Explore
+## Explore
 
 * [Layouts](explore/layouts.md)
 * [Collection And Schema](explore/collection-and-schema.md)
@@ -20,9 +20,11 @@
 * [Load Data](explore/load-data.md)
 * [Get Params From Router](explore/params-from-router.md)
 
-### Intermediate
+## Intermediate
 
 * [Pub/Sub](intermediate/pub-sub.md)
 * [Securing A Collection](intermediate/securing-a-collection.md)
 * [Auth Client Callbacks](intermediate/auth-client-callbacks.md)
 * [Blaze Mímir](intermediate/blaze-mimir.md)
+* [iOS and Android Platform](intermediate/ios-and-android-platform.md)
+
