@@ -3,7 +3,7 @@
 
 <img src="assets/logo.svg">
 
-We are going to learn Meteor today. Grab some snacks and then follow these steps to set up your environment.
+We are going to learn Meteor today. Grab some snacks and then follow these steps to start the tour.
 
 Why do we choose Meteor? Meteor is 
 
