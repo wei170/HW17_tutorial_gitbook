@@ -1,7 +1,7 @@
 # <img src="assets/ph_logo.png" width="25"> Meteor Tutorial For HelloWorld
 
 
-{% include "./assets/logo.svg" %}
+<img src="assets/logo.svg">
 
 We are going to learn Meteor today. Grab some snacks and then follow these steps to set up your environment.
 
@@ -18,4 +18,4 @@ Why do we choose Meteor? Meteor is
 Meteor suits the envoirnment of hackathons well. If you have a great idea, don't waste your time setting up server, frontend, and login/signup pages.
 
 > This is a clear chart to show Meteor main architecture.
-> {% include "./assets/meteor-arch.png" %}
+> <img src="assets/meteor-arch.png">
