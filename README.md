@@ -1,4 +1,4 @@
-# <img src="assets/ph_logo.png" width="25"> Meteor Tutorial For HelloWorld
+# ![](./assets/ph_logo.png =20X20) Meteor Tutorial For HelloWorld
 
 
 <img src="assets/logo.svg">
